@@ -1,0 +1,291 @@
+<html>
+<head>
+<title>TestNG:  Cynia Login and Workflow Scenarios</title>
+<link href="../testng.css" rel="stylesheet" type="text/css" />
+<link href="../my-testng.css" rel="stylesheet" type="text/css" />
+
+<style type="text/css">
+.log { display: none;} 
+.stack-trace { display: none;} 
+</style>
+<script type="text/javascript">
+<!--
+function flip(e) {
+  current = e.style.display;
+  if (current == 'block') {
+    e.style.display = 'none';
+    return 0;
+  }
+  else {
+    e.style.display = 'block';
+    return 1;
+  }
+}
+
+function toggleBox(szDivId, elem, msg1, msg2)
+{
+  var res = -1;  if (document.getElementById) {
+    res = flip(document.getElementById(szDivId));
+  }
+  else if (document.all) {
+    // this is the way old msie versions work
+    res = flip(document.all[szDivId]);
+  }
+  if(elem) {
+    if(res == 0) elem.innerHTML = msg1; else elem.innerHTML = msg2;
+  }
+
+}
+
+function toggleAllBoxes() {
+  if (document.getElementsByTagName) {
+    d = document.getElementsByTagName('div');
+    for (i = 0; i < d.length; i++) {
+      if (d[i].className == 'log') {
+        flip(d[i]);
+      }
+    }
+  }
+}
+
+// -->
+</script>
+
+</head>
+<body>
+<h2 align='center'>Cynia Login and Workflow Scenarios</h2><table border='1' align="center">
+<tr>
+<td>Tests passed/Failed/Skipped:</td><td>6/1/0</td>
+</tr><tr>
+<td>Started on:</td><td>Sun Oct 04 21:07:07 IST 2026</td>
+</tr>
+<tr><td>Total time:</td><td>627 seconds (627373 ms)</td>
+</tr><tr>
+<td>Included groups:</td><td></td>
+</tr><tr>
+<td>Excluded groups:</td><td></td>
+</tr>
+</table><p/>
+<small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-failed'>
+<tr><td colspan='4' align='center'><b>FAILED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td><b>Attribute(s)</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='runner.TestRunner.runScenario()'><b>runScenario</b><br>Test class: runner.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Execute workflow and verify execution trace", "Flow 4 - Workflow Execution"<br/>
+<a href="#Output-1079152956" onClick='toggleBox("Output-1079152956", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1079152956" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1079152956">
+WorkflowStepDefinitions initialized successfully<br/>
+User logged into the Cynia application successfully<br/>
+User navigated to the Workflows screen<br/>
+WorkflowExecutionStepDefinitions initialized successfully<br/>
+ITSM Store Printer Invoice Remediation workflow opened<br/>
+ITSM Store Printer Invoice Remediation heading is displayed<br/>
+Workflow builder opened.<br/>
+Workflow builder opened<br/>
+Test draft workflow button is displayed<br/>
+Test draft workflow button clicked.<br/>
+Waiting for Assign Queue popup or Test draft workflow dialog...<br/>
+Test draft workflow dialog detected directly.<br/>
+Monitoring briefly for late Assign Queue popup...<br/>
+No late Assign Queue popup detected. Continuing to JSON.<br/>
+Test draft workflow popup sequencing completed<br/>
+</div>
+</td>
+<td><div><pre>org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of element found by By.xpath: //h2[normalize-space()=&apos;Test draft workflow&apos;], but... org.openqa.selenium.StaleElementReferenceException: stale element reference: stale element not found.
+(tried for 20 seconds with 500 milliseconds interval)
+Build info: version: &apos;4.44.0&apos;, revision: &apos;da2039b&apos;
+System info: os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;25.0.2&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 149.0.7827.114, chrome: {chromedriverVersion: 149.0.7827.155 (07b52360cc1..., userDataDir: C:\Users\Win-10\AppData\Loc...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:62478}, goog:processID: 16836, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:62478/devtoo..., se:cdpVersion: 149.0.7827.114, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: e82e9b6d55f831bda24c57bab6eefb9a
+	at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:85)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:234)
+	at com.cynia.automation.pages.WorkflowExecutionPage.isTestDraftWorkflowDialogDisplayed(WorkflowExecutionPage.java:525)
+	at StepDefinations.WorkflowExecutionStepDefinitions.theTestDraftWorkflowDialogShouldBeDisplayed(WorkflowExecutionStepDefinitions.java:196)
+	at ?.the Test draft workflow dialog should be displayed(file:///C:/Users/Win-10/IdeaProjects/Cynia_Project/src/test/resources/features/WorkflowExecution.feature:48)
+</pre></div><a href='#' onClick='toggleBox("stack-trace1079152956", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1079152956'><pre>org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of element found by By.xpath: //h2[normalize-space()=&apos;Test draft workflow&apos;], but... org.openqa.selenium.StaleElementReferenceException: stale element reference: stale element not found.
+(tried for 20 seconds with 500 milliseconds interval)
+Build info: version: &apos;4.44.0&apos;, revision: &apos;da2039b&apos;
+System info: os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;25.0.2&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 149.0.7827.114, chrome: {chromedriverVersion: 149.0.7827.155 (07b52360cc1..., userDataDir: C:\Users\Win-10\AppData\Loc...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:62478}, goog:processID: 16836, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:62478/devtoo..., se:cdpVersion: 149.0.7827.114, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: e82e9b6d55f831bda24c57bab6eefb9a
+	at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:85)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:234)
+	at com.cynia.automation.pages.WorkflowExecutionPage.isTestDraftWorkflowDialogDisplayed(WorkflowExecutionPage.java:525)
+	at StepDefinations.WorkflowExecutionStepDefinitions.theTestDraftWorkflowDialogShouldBeDisplayed(WorkflowExecutionStepDefinitions.java:196)
+	at ?.the Test draft workflow dialog should be displayed(file:///C:/Users/Win-10/IdeaProjects/Cynia_Project/src/test/resources/features/WorkflowExecution.feature:48)
+</pre></div></td>
+<td>113</td>
+<td>runner.TestRunner@57c758ac</td></tr>
+</table><p>
+<table width='100%' border='1' class='invocation-passed'>
+<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td><b>Attribute(s)</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='runner.TestRunner.runScenario()'><b>runScenario</b><br>Test class: runner.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Verify Store Printer Invoice Remediation workflow screen", "Flow 4 - Workflow Execution"<br/>
+<a href="#Output-62610667" onClick='toggleBox("Output-62610667", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-62610667" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-62610667">
+WorkflowStepDefinitions initialized successfully<br/>
+User logged into the Cynia application successfully<br/>
+User navigated to the Workflows screen<br/>
+WorkflowExecutionStepDefinitions initialized successfully<br/>
+ITSM Store Printer Invoice Remediation workflow opened<br/>
+ITSM Store Printer Invoice Remediation heading is displayed<br/>
+</div>
+</td>
+<td></td>
+<td>62</td>
+<td>runner.TestRunner@57c758ac</td></tr>
+<tr>
+<td title='runner.TestRunner.runScenario()'><b>runScenario</b><br>Test class: runner.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Verify Test draft workflow dialog before execution", "Flow 4 - Workflow Execution"<br/>
+<a href="#Output-646710031" onClick='toggleBox("Output-646710031", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-646710031" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-646710031">
+WorkflowStepDefinitions initialized successfully<br/>
+User logged into the Cynia application successfully<br/>
+User navigated to the Workflows screen<br/>
+WorkflowExecutionStepDefinitions initialized successfully<br/>
+ITSM Store Printer Invoice Remediation workflow opened<br/>
+ITSM Store Printer Invoice Remediation heading is displayed<br/>
+Workflow builder opened.<br/>
+Workflow builder opened<br/>
+Test draft workflow button is displayed<br/>
+Test draft workflow button clicked.<br/>
+Waiting for Assign Queue popup or Test draft workflow dialog...<br/>
+Test draft workflow dialog detected directly.<br/>
+Monitoring briefly for late Assign Queue popup...<br/>
+Late Assign Queue popup detected.<br/>
+Queue is NOT assigned. Assigning queue...<br/>
+Assign queue clicked<br/>
+Workflow Queue dropdown opened<br/>
+dev-playground-queue selected<br/>
+Queue settings save clicked<br/>
+Assign Queue handling completed.<br/>
+Assign Queue popup closed.<br/>
+Test draft workflow button clicked again after late queue assignment.<br/>
+Test draft workflow dialog is ready.<br/>
+Test draft workflow popup sequencing completed<br/>
+Test draft workflow dialog is displayed<br/>
+</div>
+</td>
+<td></td>
+<td>133</td>
+<td>runner.TestRunner@57c758ac</td></tr>
+<tr>
+<td title='runner.TestRunner.runScenario()'><b>runScenario</b><br>Test class: runner.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Verify Workflows screen before execution", "Flow 4 - Workflow Execution"<br/>
+<a href="#Output-201421173" onClick='toggleBox("Output-201421173", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-201421173" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-201421173">
+WorkflowStepDefinitions initialized successfully<br/>
+User logged into the Cynia application successfully<br/>
+User navigated to the Workflows screen<br/>
+WorkflowExecutionStepDefinitions initialized successfully<br/>
+Workflows heading is displayed<br/>
+</div>
+</td>
+<td></td>
+<td>70</td>
+<td>runner.TestRunner@57c758ac</td></tr>
+<tr>
+<td title='runner.TestRunner.runScenario()'><b>runScenario</b><br>Test class: runner.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Verify Builder screen before execution", "Flow 4 - Workflow Execution"<br/>
+<a href="#Output-462487268" onClick='toggleBox("Output-462487268", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-462487268" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-462487268">
+WorkflowStepDefinitions initialized successfully<br/>
+User logged into the Cynia application successfully<br/>
+User navigated to the Workflows screen<br/>
+WorkflowExecutionStepDefinitions initialized successfully<br/>
+ITSM Store Printer Invoice Remediation workflow opened<br/>
+ITSM Store Printer Invoice Remediation heading is displayed<br/>
+Workflow builder opened.<br/>
+Workflow builder opened<br/>
+Test draft workflow button is displayed<br/>
+</div>
+</td>
+<td></td>
+<td>45</td>
+<td>runner.TestRunner@57c758ac</td></tr>
+<tr>
+<td title='runner.TestRunner.runScenario()'><b>runScenario</b><br>Test class: runner.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Assign queue to workflow and verify queue assignment", "Flow 4 - Workflow Execution"<br/>
+<a href="#Output-383852959" onClick='toggleBox("Output-383852959", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-383852959" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-383852959">
+WorkflowStepDefinitions initialized successfully<br/>
+User logged into the Cynia application successfully<br/>
+User navigated to the Workflows screen<br/>
+WorkflowExecutionStepDefinitions initialized successfully<br/>
+ITSM Store Printer Invoice Remediation workflow opened<br/>
+ITSM Store Printer Invoice Remediation heading is displayed<br/>
+Workflow builder opened.<br/>
+Workflow builder opened<br/>
+Test draft workflow button is displayed<br/>
+Queue is already assigned. Skipping Assign Queue.<br/>
+Assign queue action completed or skipped if queue was already assigned<br/>
+Queue assignment verified successfully<br/>
+</div>
+</td>
+<td></td>
+<td>66</td>
+<td>runner.TestRunner@57c758ac</td></tr>
+<tr>
+<td title='runner.TestRunner.runScenario()'><b>runScenario</b><br>Test class: runner.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Execute workflow, verify Traces, statuses and return to workflow overview", "Flow 4 - Workflow Execution"<br/>
+<a href="#Output-168066011" onClick='toggleBox("Output-168066011", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-168066011" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-168066011">
+WorkflowStepDefinitions initialized successfully<br/>
+User logged into the Cynia application successfully<br/>
+User navigated to the Workflows screen<br/>
+WorkflowExecutionStepDefinitions initialized successfully<br/>
+ITSM Store Printer Invoice Remediation workflow opened<br/>
+ITSM Store Printer Invoice Remediation heading is displayed<br/>
+Workflow builder opened.<br/>
+Workflow builder opened<br/>
+Test draft workflow button is displayed<br/>
+Test draft workflow button clicked.<br/>
+Waiting for Assign Queue popup or Test draft workflow dialog...<br/>
+Test draft workflow dialog detected directly.<br/>
+Monitoring briefly for late Assign Queue popup...<br/>
+No late Assign Queue popup detected. Continuing to JSON.<br/>
+Test draft workflow popup sequencing completed<br/>
+Test draft workflow dialog is displayed<br/>
+Valid inputData JSON entered.<br/>
+Valid inputData JSON entered<br/>
+Test draft button is enabled<br/>
+Test draft button clicked.<br/>
+Test draft button clicked<br/>
+Execution trace is displayed<br/>
+Traces heading is displayed<br/>
+Overall workflow execution status: RUNNING<br/>
+Trace statuses displayed. Total trace statuses: 1<br/>
+Human response limitation reported<br/>
+Navigated back to workflow overview<br/>
+Workflow overview is displayed after navigation back<br/>
+</div>
+</td>
+<td></td>
+<td>130</td>
+<td>runner.TestRunner@57c758ac</td></tr>
+</table><p>
+</body>
+</html>

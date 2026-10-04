@@ -1,0 +1,19 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 7, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 635.4 s <<< FAILURE! -- in TestSuite
+runner.TestRunner.runScenario["Execute workflow and verify execution trace", "Flow 4 - Workflow Execution"](6) -- Time elapsed: 114.3 s <<< FAILURE!
+org.openqa.selenium.TimeoutException: 
+Expected condition failed: waiting for visibility of element found by By.xpath: //h2[normalize-space()='Test draft workflow'], but... org.openqa.selenium.StaleElementReferenceException: stale element reference: stale element not found.
+(tried for 20 seconds with 500 milliseconds interval)
+Build info: version: '4.44.0', revision: 'da2039b'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '25.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 149.0.7827.114, chrome: {chromedriverVersion: 149.0.7827.155 (07b52360cc1..., userDataDir: C:\Users\Win-10\AppData\Loc...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:62478}, goog:processID: 16836, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:62478/devtoo..., se:cdpVersion: 149.0.7827.114, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: e82e9b6d55f831bda24c57bab6eefb9a
+	at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:85)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:234)
+	at com.cynia.automation.pages.WorkflowExecutionPage.isTestDraftWorkflowDialogDisplayed(WorkflowExecutionPage.java:525)
+	at StepDefinations.WorkflowExecutionStepDefinitions.theTestDraftWorkflowDialogShouldBeDisplayed(WorkflowExecutionStepDefinitions.java:196)
+	at ✽.the Test draft workflow dialog should be displayed(file:///C:/Users/Win-10/IdeaProjects/Cynia_Project/src/test/resources/features/WorkflowExecution.feature:48)
+

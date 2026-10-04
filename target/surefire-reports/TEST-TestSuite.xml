@@ -1,0 +1,436 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" version="3.0.2" name="TestSuite" time="635.375" tests="7" errors="0" skipped="0" failures="1">
+  <properties>
+    <property name="java.specification.version" value="25"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+    <property name="sun.jnu.encoding" value="Cp1252"/>
+    <property name="java.class.path" value="C:\Users\Win-10\IdeaProjects\Cynia_Project\target\test-classes;C:\Users\Win-10\IdeaProjects\Cynia_Project\target\classes;C:\Users\Win-10\.m2\repository\org\seleniumhq\selenium\selenium-java\4.44.0\selenium-java-4.44.0.jar;C:\Users\Win-10\.m2\repository\org\seleniumhq\selenium\selenium-api\4.44.0\selenium-api-4.44.0.jar;C:\Users\Win-10\.m2\repository\org\jspecify\jspecify\1.0.0\jspecify-1.0.0.jar;C:\Users\Win-10\.m2\repository\org\seleniumhq\selenium\selenium-chrome-driver\4.44.0\selenium-chrome-driver-4.44.0.jar;C:\Users\Win-10\.m2\repository\com\google\auto\service\auto-service-annotations\1.1.1\auto-service-annotations-1.1.1.jar;C:\Users\Win-10\.m2\repository\org\seleniumhq\selenium\selenium-chromium-driver\4.44.0\selenium-chromium-driver-4.44.0.jar;C:\Users\Win-10\.m2\repository\org\seleniumhq\selenium\selenium-json\4.44.0\selenium-json-4.44.0.jar;C:\Users\Win-10\.m2\repository\org\seleniumhq\selenium\selenium-manager\4.44.0\selenium-manager-4.44.0.jar;C:\Users\Win-10\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v146\4.44.0\selenium-devtools-v146-4.44.0.jar;C:\Users\Win-10\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v147\4.44.0\selenium-devtools-v147-4.44.0.jar;C:\Users\Win-10\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v148\4.44.0\selenium-devtools-v148-4.44.0.jar;C:\Users\Win-10\.m2\repository\org\seleniumhq\selenium\selenium-edge-driver\4.44.0\selenium-edge-driver-4.44.0.jar;C:\Users\Win-10\.m2\repository\org\seleniumhq\selenium\selenium-firefox-driver\4.44.0\selenium-firefox-driver-4.44.0.jar;C:\Users\Win-10\.m2\repository\org\seleniumhq\selenium\selenium-http\4.44.0\selenium-http-4.44.0.jar;C:\Users\Win-10\.m2\repository\org\seleniumhq\selenium\selenium-ie-driver\4.44.0\selenium-ie-driver-4.44.0.jar;C:\Users\Win-10\.m2\repository\org\seleniumhq\selenium\selenium-remote-driver\4.44.0\selenium-remote-driver-4.44.0.jar;C:\Users\Win-10\.m2\repository\com\google\guava\guava\33.6.0-jre\guava-33.6.0-jre.jar;C:\Users\Win-10\.m2\repository\com\google\guava\failureaccess\1.0.3\failureaccess-1.0.3.jar;C:\Users\Win-10\.m2\repository\com\google\guava\listenablefuture\9999.0-empty-to-avoid-conflict-with-guava\listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar;C:\Users\Win-10\.m2\repository\com\google\errorprone\error_prone_annotations\2.47.0\error_prone_annotations-2.47.0.jar;C:\Users\Win-10\.m2\repository\com\google\j2objc\j2objc-annotations\3.1\j2objc-annotations-3.1.jar;C:\Users\Win-10\.m2\repository\io\opentelemetry\opentelemetry-api\1.62.0\opentelemetry-api-1.62.0.jar;C:\Users\Win-10\.m2\repository\io\opentelemetry\opentelemetry-context\1.62.0\opentelemetry-context-1.62.0.jar;C:\Users\Win-10\.m2\repository\io\opentelemetry\opentelemetry-common\1.62.0\opentelemetry-common-1.62.0.jar;C:\Users\Win-10\.m2\repository\io\opentelemetry\opentelemetry-exporter-logging\1.62.0\opentelemetry-exporter-logging-1.62.0.jar;C:\Users\Win-10\.m2\repository\io\opentelemetry\opentelemetry-sdk-common\1.62.0\opentelemetry-sdk-common-1.62.0.jar;C:\Users\Win-10\.m2\repository\io\opentelemetry\opentelemetry-sdk-extension-autoconfigure-spi\1.62.0\opentelemetry-sdk-extension-autoconfigure-spi-1.62.0.jar;C:\Users\Win-10\.m2\repository\io\opentelemetry\opentelemetry-sdk-extension-autoconfigure\1.62.0\opentelemetry-sdk-extension-autoconfigure-1.62.0.jar;C:\Users\Win-10\.m2\repository\io\opentelemetry\opentelemetry-sdk-trace\1.62.0\opentelemetry-sdk-trace-1.62.0.jar;C:\Users\Win-10\.m2\repository\io\opentelemetry\opentelemetry-sdk\1.62.0\opentelemetry-sdk-1.62.0.jar;C:\Users\Win-10\.m2\repository\io\opentelemetry\opentelemetry-sdk-metrics\1.62.0\opentelemetry-sdk-metrics-1.62.0.jar;C:\Users\Win-10\.m2\repository\io\opentelemetry\opentelemetry-sdk-logs\1.62.0\opentelemetry-sdk-logs-1.62.0.jar;C:\Users\Win-10\.m2\repository\net\bytebuddy\byte-buddy\1.18.8-jdk5\byte-buddy-1.18.8-jdk5.jar;C:\Users\Win-10\.m2\repository\org\seleniumhq\selenium\selenium-os\4.44.0\selenium-os-4.44.0.jar;C:\Users\Win-10\.m2\repository\org\seleniumhq\selenium\selenium-safari-driver\4.44.0\selenium-safari-driver-4.44.0.jar;C:\Users\Win-10\.m2\repository\org\seleniumhq\selenium\selenium-support\4.44.0\selenium-support-4.44.0.jar;C:\Users\Win-10\.m2\repository\org\testng\testng\7.12.0\testng-7.12.0.jar;C:\Users\Win-10\.m2\repository\org\slf4j\slf4j-api\2.0.16\slf4j-api-2.0.16.jar;C:\Users\Win-10\.m2\repository\org\jcommander\jcommander\1.83\jcommander-1.83.jar;C:\Users\Win-10\.m2\repository\org\webjars\jquery\3.7.1\jquery-3.7.1.jar;C:\Users\Win-10\.m2\repository\io\cucumber\cucumber-java\7.34.3\cucumber-java-7.34.3.jar;C:\Users\Win-10\.m2\repository\io\cucumber\cucumber-core\7.34.3\cucumber-core-7.34.3.jar;C:\Users\Win-10\.m2\repository\io\cucumber\cucumber-gherkin\7.34.3\cucumber-gherkin-7.34.3.jar;C:\Users\Win-10\.m2\repository\io\cucumber\cucumber-gherkin-messages\7.34.3\cucumber-gherkin-messages-7.34.3.jar;C:\Users\Win-10\.m2\repository\io\cucumber\gherkin\36.1.0\gherkin-36.1.0.jar;C:\Users\Win-10\.m2\repository\io\cucumber\messages\30.1.0\messages-30.1.0.jar;C:\Users\Win-10\.m2\repository\io\cucumber\messages-ndjson\0.3.2\messages-ndjson-0.3.2.jar;C:\Users\Win-10\.m2\repository\io\cucumber\pretty-formatter\2.4.1\pretty-formatter-2.4.1.jar;C:\Users\Win-10\.m2\repository\io\cucumber\query\14.7.0\query-14.7.0.jar;C:\Users\Win-10\.m2\repository\io\cucumber\teamcity-formatter\0.2.0\teamcity-formatter-0.2.0.jar;C:\Users\Win-10\.m2\repository\io\cucumber\testng-xml-formatter\0.7.0\testng-xml-formatter-0.7.0.jar;C:\Users\Win-10\.m2\repository\io\cucumber\usage-formatter\0.1.0\usage-formatter-0.1.0.jar;C:\Users\Win-10\.m2\repository\io\cucumber\tag-expressions\8.1.0\tag-expressions-8.1.0.jar;C:\Users\Win-10\.m2\repository\io\cucumber\cucumber-expressions\18.1.0\cucumber-expressions-18.1.0.jar;C:\Users\Win-10\.m2\repository\io\cucumber\cucumber-json-formatter\0.3.2\cucumber-json-formatter-0.3.2.jar;C:\Users\Win-10\.m2\repository\io\cucumber\datatable\7.34.3\datatable-7.34.3.jar;C:\Users\Win-10\.m2\repository\io\cucumber\cucumber-plugin\7.34.3\cucumber-plugin-7.34.3.jar;C:\Users\Win-10\.m2\repository\io\cucumber\docstring\7.34.3\docstring-7.34.3.jar;C:\Users\Win-10\.m2\repository\io\cucumber\html-formatter\22.3.0\html-formatter-22.3.0.jar;C:\Users\Win-10\.m2\repository\io\cucumber\junit-xml-formatter\0.11.0\junit-xml-formatter-0.11.0.jar;C:\Users\Win-10\.m2\repository\io\cucumber\ci-environment\12.0.0\ci-environment-12.0.0.jar;C:\Users\Win-10\.m2\repository\org\apiguardian\apiguardian-api\1.1.2\apiguardian-api-1.1.2.jar;C:\Users\Win-10\.m2\repository\io\cucumber\cucumber-testng\7.34.3\cucumber-testng-7.34.3.jar;C:\Users\Win-10\.m2\repository\org\apache\poi\poi-ooxml\5.4.1\poi-ooxml-5.4.1.jar;C:\Users\Win-10\.m2\repository\org\apache\poi\poi\5.4.1\poi-5.4.1.jar;C:\Users\Win-10\.m2\repository\commons-codec\commons-codec\1.18.0\commons-codec-1.18.0.jar;C:\Users\Win-10\.m2\repository\org\apache\commons\commons-math3\3.6.1\commons-math3-3.6.1.jar;C:\Users\Win-10\.m2\repository\com\zaxxer\SparseBitSet\1.3\SparseBitSet-1.3.jar;C:\Users\Win-10\.m2\repository\org\apache\poi\poi-ooxml-lite\5.4.1\poi-ooxml-lite-5.4.1.jar;C:\Users\Win-10\.m2\repository\org\apache\xmlbeans\xmlbeans\5.3.0\xmlbeans-5.3.0.jar;C:\Users\Win-10\.m2\repository\org\apache\commons\commons-compress\1.27.1\commons-compress-1.27.1.jar;C:\Users\Win-10\.m2\repository\org\apache\commons\commons-lang3\3.16.0\commons-lang3-3.16.0.jar;C:\Users\Win-10\.m2\repository\commons-io\commons-io\2.18.0\commons-io-2.18.0.jar;C:\Users\Win-10\.m2\repository\com\github\virtuald\curvesapi\1.08\curvesapi-1.08.jar;C:\Users\Win-10\.m2\repository\org\apache\logging\log4j\log4j-api\2.24.3\log4j-api-2.24.3.jar;C:\Users\Win-10\.m2\repository\org\apache\commons\commons-collections4\4.4\commons-collections4-4.4.jar;"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="user.variant" value=""/>
+    <property name="java.vendor.url" value="https://java.oracle.com/"/>
+    <property name="user.timezone" value="Asia/Calcutta"/>
+    <property name="os.name" value="Windows 10"/>
+    <property name="java.vm.specification.version" value="25"/>
+    <property name="user.country" value="IN"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk-25.0.2\bin"/>
+    <property name="sun.java.command" value="C:\Users\Win-10\AppData\Local\Temp\surefire18150878504821690142\surefirebooter-20261004210656126_3.jar C:\Users\Win-10\AppData\Local\Temp\surefire18150878504821690142 2026-10-04T21-06-55_138-jvmRun1 surefire-20261004210656126_1tmp surefire_0-20261004210656126_2tmp"/>
+    <property name="jdk.debug" value="release"/>
+    <property name="surefire.test.class.path" value="C:\Users\Win-10\IdeaProjects\Cynia_Project\target\test-classes;C:\Users\Win-10\IdeaProjects\Cynia_Project\target\classes;C:\Users\Win-10\.m2\repository\org\seleniumhq\selenium\selenium-java\4.44.0\selenium-java-4.44.0.jar;C:\Users\Win-10\.m2\repository\org\seleniumhq\selenium\selenium-api\4.44.0\selenium-api-4.44.0.jar;C:\Users\Win-10\.m2\repository\org\jspecify\jspecify\1.0.0\jspecify-1.0.0.jar;C:\Users\Win-10\.m2\repository\org\seleniumhq\selenium\selenium-chrome-driver\4.44.0\selenium-chrome-driver-4.44.0.jar;C:\Users\Win-10\.m2\repository\com\google\auto\service\auto-service-annotations\1.1.1\auto-service-annotations-1.1.1.jar;C:\Users\Win-10\.m2\repository\org\seleniumhq\selenium\selenium-chromium-driver\4.44.0\selenium-chromium-driver-4.44.0.jar;C:\Users\Win-10\.m2\repository\org\seleniumhq\selenium\selenium-json\4.44.0\selenium-json-4.44.0.jar;C:\Users\Win-10\.m2\repository\org\seleniumhq\selenium\selenium-manager\4.44.0\selenium-manager-4.44.0.jar;C:\Users\Win-10\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v146\4.44.0\selenium-devtools-v146-4.44.0.jar;C:\Users\Win-10\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v147\4.44.0\selenium-devtools-v147-4.44.0.jar;C:\Users\Win-10\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v148\4.44.0\selenium-devtools-v148-4.44.0.jar;C:\Users\Win-10\.m2\repository\org\seleniumhq\selenium\selenium-edge-driver\4.44.0\selenium-edge-driver-4.44.0.jar;C:\Users\Win-10\.m2\repository\org\seleniumhq\selenium\selenium-firefox-driver\4.44.0\selenium-firefox-driver-4.44.0.jar;C:\Users\Win-10\.m2\repository\org\seleniumhq\selenium\selenium-http\4.44.0\selenium-http-4.44.0.jar;C:\Users\Win-10\.m2\repository\org\seleniumhq\selenium\selenium-ie-driver\4.44.0\selenium-ie-driver-4.44.0.jar;C:\Users\Win-10\.m2\repository\org\seleniumhq\selenium\selenium-remote-driver\4.44.0\selenium-remote-driver-4.44.0.jar;C:\Users\Win-10\.m2\repository\com\google\guava\guava\33.6.0-jre\guava-33.6.0-jre.jar;C:\Users\Win-10\.m2\repository\com\google\guava\failureaccess\1.0.3\failureaccess-1.0.3.jar;C:\Users\Win-10\.m2\repository\com\google\guava\listenablefuture\9999.0-empty-to-avoid-conflict-with-guava\listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar;C:\Users\Win-10\.m2\repository\com\google\errorprone\error_prone_annotations\2.47.0\error_prone_annotations-2.47.0.jar;C:\Users\Win-10\.m2\repository\com\google\j2objc\j2objc-annotations\3.1\j2objc-annotations-3.1.jar;C:\Users\Win-10\.m2\repository\io\opentelemetry\opentelemetry-api\1.62.0\opentelemetry-api-1.62.0.jar;C:\Users\Win-10\.m2\repository\io\opentelemetry\opentelemetry-context\1.62.0\opentelemetry-context-1.62.0.jar;C:\Users\Win-10\.m2\repository\io\opentelemetry\opentelemetry-common\1.62.0\opentelemetry-common-1.62.0.jar;C:\Users\Win-10\.m2\repository\io\opentelemetry\opentelemetry-exporter-logging\1.62.0\opentelemetry-exporter-logging-1.62.0.jar;C:\Users\Win-10\.m2\repository\io\opentelemetry\opentelemetry-sdk-common\1.62.0\opentelemetry-sdk-common-1.62.0.jar;C:\Users\Win-10\.m2\repository\io\opentelemetry\opentelemetry-sdk-extension-autoconfigure-spi\1.62.0\opentelemetry-sdk-extension-autoconfigure-spi-1.62.0.jar;C:\Users\Win-10\.m2\repository\io\opentelemetry\opentelemetry-sdk-extension-autoconfigure\1.62.0\opentelemetry-sdk-extension-autoconfigure-1.62.0.jar;C:\Users\Win-10\.m2\repository\io\opentelemetry\opentelemetry-sdk-trace\1.62.0\opentelemetry-sdk-trace-1.62.0.jar;C:\Users\Win-10\.m2\repository\io\opentelemetry\opentelemetry-sdk\1.62.0\opentelemetry-sdk-1.62.0.jar;C:\Users\Win-10\.m2\repository\io\opentelemetry\opentelemetry-sdk-metrics\1.62.0\opentelemetry-sdk-metrics-1.62.0.jar;C:\Users\Win-10\.m2\repository\io\opentelemetry\opentelemetry-sdk-logs\1.62.0\opentelemetry-sdk-logs-1.62.0.jar;C:\Users\Win-10\.m2\repository\net\bytebuddy\byte-buddy\1.18.8-jdk5\byte-buddy-1.18.8-jdk5.jar;C:\Users\Win-10\.m2\repository\org\seleniumhq\selenium\selenium-os\4.44.0\selenium-os-4.44.0.jar;C:\Users\Win-10\.m2\repository\org\seleniumhq\selenium\selenium-safari-driver\4.44.0\selenium-safari-driver-4.44.0.jar;C:\Users\Win-10\.m2\repository\org\seleniumhq\selenium\selenium-support\4.44.0\selenium-support-4.44.0.jar;C:\Users\Win-10\.m2\repository\org\testng\testng\7.12.0\testng-7.12.0.jar;C:\Users\Win-10\.m2\repository\org\slf4j\slf4j-api\2.0.16\slf4j-api-2.0.16.jar;C:\Users\Win-10\.m2\repository\org\jcommander\jcommander\1.83\jcommander-1.83.jar;C:\Users\Win-10\.m2\repository\org\webjars\jquery\3.7.1\jquery-3.7.1.jar;C:\Users\Win-10\.m2\repository\io\cucumber\cucumber-java\7.34.3\cucumber-java-7.34.3.jar;C:\Users\Win-10\.m2\repository\io\cucumber\cucumber-core\7.34.3\cucumber-core-7.34.3.jar;C:\Users\Win-10\.m2\repository\io\cucumber\cucumber-gherkin\7.34.3\cucumber-gherkin-7.34.3.jar;C:\Users\Win-10\.m2\repository\io\cucumber\cucumber-gherkin-messages\7.34.3\cucumber-gherkin-messages-7.34.3.jar;C:\Users\Win-10\.m2\repository\io\cucumber\gherkin\36.1.0\gherkin-36.1.0.jar;C:\Users\Win-10\.m2\repository\io\cucumber\messages\30.1.0\messages-30.1.0.jar;C:\Users\Win-10\.m2\repository\io\cucumber\messages-ndjson\0.3.2\messages-ndjson-0.3.2.jar;C:\Users\Win-10\.m2\repository\io\cucumber\pretty-formatter\2.4.1\pretty-formatter-2.4.1.jar;C:\Users\Win-10\.m2\repository\io\cucumber\query\14.7.0\query-14.7.0.jar;C:\Users\Win-10\.m2\repository\io\cucumber\teamcity-formatter\0.2.0\teamcity-formatter-0.2.0.jar;C:\Users\Win-10\.m2\repository\io\cucumber\testng-xml-formatter\0.7.0\testng-xml-formatter-0.7.0.jar;C:\Users\Win-10\.m2\repository\io\cucumber\usage-formatter\0.1.0\usage-formatter-0.1.0.jar;C:\Users\Win-10\.m2\repository\io\cucumber\tag-expressions\8.1.0\tag-expressions-8.1.0.jar;C:\Users\Win-10\.m2\repository\io\cucumber\cucumber-expressions\18.1.0\cucumber-expressions-18.1.0.jar;C:\Users\Win-10\.m2\repository\io\cucumber\cucumber-json-formatter\0.3.2\cucumber-json-formatter-0.3.2.jar;C:\Users\Win-10\.m2\repository\io\cucumber\datatable\7.34.3\datatable-7.34.3.jar;C:\Users\Win-10\.m2\repository\io\cucumber\cucumber-plugin\7.34.3\cucumber-plugin-7.34.3.jar;C:\Users\Win-10\.m2\repository\io\cucumber\docstring\7.34.3\docstring-7.34.3.jar;C:\Users\Win-10\.m2\repository\io\cucumber\html-formatter\22.3.0\html-formatter-22.3.0.jar;C:\Users\Win-10\.m2\repository\io\cucumber\junit-xml-formatter\0.11.0\junit-xml-formatter-0.11.0.jar;C:\Users\Win-10\.m2\repository\io\cucumber\ci-environment\12.0.0\ci-environment-12.0.0.jar;C:\Users\Win-10\.m2\repository\org\apiguardian\apiguardian-api\1.1.2\apiguardian-api-1.1.2.jar;C:\Users\Win-10\.m2\repository\io\cucumber\cucumber-testng\7.34.3\cucumber-testng-7.34.3.jar;C:\Users\Win-10\.m2\repository\org\apache\poi\poi-ooxml\5.4.1\poi-ooxml-5.4.1.jar;C:\Users\Win-10\.m2\repository\org\apache\poi\poi\5.4.1\poi-5.4.1.jar;C:\Users\Win-10\.m2\repository\commons-codec\commons-codec\1.18.0\commons-codec-1.18.0.jar;C:\Users\Win-10\.m2\repository\org\apache\commons\commons-math3\3.6.1\commons-math3-3.6.1.jar;C:\Users\Win-10\.m2\repository\com\zaxxer\SparseBitSet\1.3\SparseBitSet-1.3.jar;C:\Users\Win-10\.m2\repository\org\apache\poi\poi-ooxml-lite\5.4.1\poi-ooxml-lite-5.4.1.jar;C:\Users\Win-10\.m2\repository\org\apache\xmlbeans\xmlbeans\5.3.0\xmlbeans-5.3.0.jar;C:\Users\Win-10\.m2\repository\org\apache\commons\commons-compress\1.27.1\commons-compress-1.27.1.jar;C:\Users\Win-10\.m2\repository\org\apache\commons\commons-lang3\3.16.0\commons-lang3-3.16.0.jar;C:\Users\Win-10\.m2\repository\commons-io\commons-io\2.18.0\commons-io-2.18.0.jar;C:\Users\Win-10\.m2\repository\com\github\virtuald\curvesapi\1.08\curvesapi-1.08.jar;C:\Users\Win-10\.m2\repository\org\apache\logging\log4j\log4j-api\2.24.3\log4j-api-2.24.3.jar;C:\Users\Win-10\.m2\repository\org\apache\commons\commons-collections4\4.4\commons-collections4-4.4.jar;"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="user.home" value="C:\Users\Win-10"/>
+    <property name="user.language" value="en"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.version.date" value="2026-01-20"/>
+    <property name="java.home" value="C:\Program Files\Java\jdk-25.0.2"/>
+    <property name="file.separator" value="\"/>
+    <property name="basedir" value="C:\Users\Win-10\IdeaProjects\Cynia_Project"/>
+    <property name="style.color" value="always"/>
+    <property name="java.vm.compressedOopsMode" value="32-bit"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="surefire.real.class.path" value="C:\Users\Win-10\AppData\Local\Temp\surefire18150878504821690142\surefirebooter-20261004210656126_3.jar"/>
+    <property name="user.script" value=""/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="java.runtime.version" value="25.0.2+10-LTS-69"/>
+    <property name="user.name" value="Win-10"/>
+    <property name="stdout.encoding" value="Cp1252"/>
+    <property name="path.separator" value=";"/>
+    <property name="os.version" value="10.0"/>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="file.encoding" value="IBM437"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="maven.ext.class.path" value="C:\Program Files\JetBrains\IntelliJ IDEA 2025.3.2\New\plugins\maven\lib\maven-event-listener.jar"/>
+    <property name="localRepository" value="C:\Users\Win-10\.m2\repository"/>
+    <property name="java.vendor.url.bug" value="https://bugreport.java.com/bugreport/"/>
+    <property name="java.io.tmpdir" value="C:\Users\Win-10\AppData\Local\Temp\"/>
+    <property name="idea.version" value="2025.3.2"/>
+    <property name="java.version" value="25.0.2"/>
+    <property name="user.dir" value="C:\Users\Win-10\IdeaProjects\Cynia_Project"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="jansi.passthrough" value="true"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="native.encoding" value="Cp1252"/>
+    <property name="java.library.path" value="C:\Program Files\Java\jdk-25.0.2\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\Program Files\Common Files\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files (x86)\Microsoft SQL Server\170\Tools\Binn\;C:\Program Files\Microsoft SQL Server\170\Tools\Binn\;C:\Program Files\Microsoft SQL Server\Client SDK\ODBC\180\Tools\Binn\;C:\Program Files\Microsoft SQL Server\170\DTS\Binn\;C:\Program Files\Git\cmd;C:\Users\Win-10\AppData\Local\Microsoft\WindowsApps;C:\Program Files\JetBrains\IntelliJ IDEA 2025.3.2\New\bin\IntelliJ IDEA 2025.3.2\bin;."/>
+    <property name="java.vm.info" value="mixed mode, sharing"/>
+    <property name="stderr.encoding" value="Cp1252"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="java.vm.version" value="25.0.2+10-LTS-69"/>
+    <property name="stdin.encoding" value="Cp1252"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="maven.repo.local" value="C:\Users\Win-10\.m2\repository"/>
+    <property name="java.class.version" value="69.0"/>
+  </properties>
+  <testcase name="runScenario[&quot;Verify Workflows screen before execution&quot;, &quot;Flow 4 - Workflow Execution&quot;](1)" classname="runner.TestRunner" time="70.359">
+    <system-out><![CDATA[
+Scenario: Verify Workflows screen before execution  # src/test/resources/features/WorkflowExecution.feature:8
+========== HOOK START ==========
+Browser from config: chrome
+URL from config: https://platform.agent.app.dev.cynia.ai/
+Browser initialized.
+URL opened: https://platform.agent.app.dev.cynia.ai/login
+========== HOOK END ==========
+WorkflowStepDefinitions initialized successfully
+2026-10-04T15:37:47.677297300Z main ERROR Log4j API could not find a logging provider.
+========== EXCEL SHEETS ==========
+Sheet 0: [LoginTestData]
+Requested sheet: [LoginTestData]
+=================================
+========== EXCEL SHEETS ==========
+Sheet 0: [LoginTestData]
+Requested sheet: [LoginTestData]
+=================================
+Post-login URL: https://platform.agent.app.dev.cynia.ai/
+User logged into the Cynia application successfully
+  Γ£ö Given user is logged into the Cynia application # StepDefinations.WorkflowStepDefinitions.userIsLoggedIntoTheCyniaApplication()
+User navigated to the Workflows screen
+  Γ£ö And user navigates to the Workflows screen      # StepDefinations.WorkflowStepDefinitions.userNavigatesToTheWorkflowsScreen()
+WorkflowExecutionStepDefinitions initialized successfully
+Workflows heading is displayed
+  Γ£ö Then the Workflows heading should be displayed  # StepDefinations.WorkflowExecutionStepDefinitions.theWorkflowsHeadingShouldBeDisplayed()
+Browser closed.
+]]></system-out>
+    <system-err><![CDATA[SLF4J(W): No SLF4J providers were found.
+SLF4J(W): Defaulting to no-operation (NOP) logger implementation
+SLF4J(W): See https://www.slf4j.org/codes.html#noProviders for further details.
+Oct 04, 2026 9:07:34 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 149, returning the closest version; found: 148; Please update to a Selenium version that supports CDP version 149
+]]></system-err>
+  </testcase>
+  <testcase name="runScenario[&quot;Verify Store Printer Invoice Remediation workflow screen&quot;, &quot;Flow 4 - Workflow Execution&quot;](2)" classname="runner.TestRunner" time="61.981">
+    <system-out><![CDATA[
+Scenario: Verify Store Printer Invoice Remediation workflow screen              # src/test/resources/features/WorkflowExecution.feature:12
+========== HOOK START ==========
+Browser from config: chrome
+URL from config: https://platform.agent.app.dev.cynia.ai/
+Browser initialized.
+URL opened: https://platform.agent.app.dev.cynia.ai/login
+========== HOOK END ==========
+WorkflowStepDefinitions initialized successfully
+========== EXCEL SHEETS ==========
+Sheet 0: [LoginTestData]
+Requested sheet: [LoginTestData]
+=================================
+========== EXCEL SHEETS ==========
+Sheet 0: [LoginTestData]
+Requested sheet: [LoginTestData]
+=================================
+Post-login URL: https://platform.agent.app.dev.cynia.ai/
+User logged into the Cynia application successfully
+  Γ£ö Given user is logged into the Cynia application                             # StepDefinations.WorkflowStepDefinitions.userIsLoggedIntoTheCyniaApplication()
+User navigated to the Workflows screen
+  Γ£ö And user navigates to the Workflows screen                                  # StepDefinations.WorkflowStepDefinitions.userNavigatesToTheWorkflowsScreen()
+WorkflowExecutionStepDefinitions initialized successfully
+ITSM Store Printer Invoice Remediation workflow opened
+  Γ£ö When user opens the ITSM Store Printer Invoice Remediation workflow         # StepDefinations.WorkflowExecutionStepDefinitions.userOpensTheStorePrinterInvoiceRemediationWorkflow()
+ITSM Store Printer Invoice Remediation heading is displayed
+  Γ£ö Then the ITSM Store Printer Invoice Remediation heading should be displayed # StepDefinations.WorkflowExecutionStepDefinitions.theITSMStorePrinterInvoiceRemediationHeadingShouldBeDisplayed()
+Browser closed.
+]]></system-out>
+    <system-err><![CDATA[Oct 04, 2026 9:08:29 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 149, returning the closest version; found: 148; Please update to a Selenium version that supports CDP version 149
+]]></system-err>
+  </testcase>
+  <testcase name="runScenario[&quot;Verify Builder screen before execution&quot;, &quot;Flow 4 - Workflow Execution&quot;](3)" classname="runner.TestRunner" time="45.264">
+    <system-out><![CDATA[
+Scenario: Verify Builder screen before execution                                # src/test/resources/features/WorkflowExecution.feature:17
+========== HOOK START ==========
+Browser from config: chrome
+URL from config: https://platform.agent.app.dev.cynia.ai/
+Browser initialized.
+URL opened: https://platform.agent.app.dev.cynia.ai/login
+========== HOOK END ==========
+WorkflowStepDefinitions initialized successfully
+========== EXCEL SHEETS ==========
+Sheet 0: [LoginTestData]
+Requested sheet: [LoginTestData]
+=================================
+========== EXCEL SHEETS ==========
+Sheet 0: [LoginTestData]
+Requested sheet: [LoginTestData]
+=================================
+Post-login URL: https://platform.agent.app.dev.cynia.ai/
+User logged into the Cynia application successfully
+  Γ£ö Given user is logged into the Cynia application                             # StepDefinations.WorkflowStepDefinitions.userIsLoggedIntoTheCyniaApplication()
+User navigated to the Workflows screen
+  Γ£ö And user navigates to the Workflows screen                                  # StepDefinations.WorkflowStepDefinitions.userNavigatesToTheWorkflowsScreen()
+WorkflowExecutionStepDefinitions initialized successfully
+ITSM Store Printer Invoice Remediation workflow opened
+  Γ£ö When user opens the ITSM Store Printer Invoice Remediation workflow         # StepDefinations.WorkflowExecutionStepDefinitions.userOpensTheStorePrinterInvoiceRemediationWorkflow()
+ITSM Store Printer Invoice Remediation heading is displayed
+  Γ£ö Then the ITSM Store Printer Invoice Remediation heading should be displayed # StepDefinations.WorkflowExecutionStepDefinitions.theITSMStorePrinterInvoiceRemediationHeadingShouldBeDisplayed()
+Workflow builder opened.
+Workflow builder opened
+  Γ£ö When user opens the workflow builder                                        # StepDefinations.WorkflowExecutionStepDefinitions.userOpensTheWorkflowBuilder()
+Test draft workflow button is displayed
+  Γ£ö Then the Test draft workflow button should be displayed                     # StepDefinations.WorkflowExecutionStepDefinitions.theTestDraftWorkflowButtonShouldBeDisplayed()
+Browser closed.
+]]></system-out>
+    <system-err><![CDATA[Oct 04, 2026 9:09:31 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 149, returning the closest version; found: 148; Please update to a Selenium version that supports CDP version 149
+]]></system-err>
+  </testcase>
+  <testcase name="runScenario[&quot;Verify Test draft workflow dialog before execution&quot;, &quot;Flow 4 - Workflow Execution&quot;](4)" classname="runner.TestRunner" time="133.125">
+    <system-out><![CDATA[
+Scenario: Verify Test draft workflow dialog before execution                    # src/test/resources/features/WorkflowExecution.feature:24
+========== HOOK START ==========
+Browser from config: chrome
+URL from config: https://platform.agent.app.dev.cynia.ai/
+Browser initialized.
+URL opened: https://platform.agent.app.dev.cynia.ai/login
+========== HOOK END ==========
+WorkflowStepDefinitions initialized successfully
+========== EXCEL SHEETS ==========
+Sheet 0: [LoginTestData]
+Requested sheet: [LoginTestData]
+=================================
+========== EXCEL SHEETS ==========
+Sheet 0: [LoginTestData]
+Requested sheet: [LoginTestData]
+=================================
+Post-login URL: https://platform.agent.app.dev.cynia.ai/
+User logged into the Cynia application successfully
+  Γ£ö Given user is logged into the Cynia application                             # StepDefinations.WorkflowStepDefinitions.userIsLoggedIntoTheCyniaApplication()
+User navigated to the Workflows screen
+  Γ£ö And user navigates to the Workflows screen                                  # StepDefinations.WorkflowStepDefinitions.userNavigatesToTheWorkflowsScreen()
+WorkflowExecutionStepDefinitions initialized successfully
+ITSM Store Printer Invoice Remediation workflow opened
+  Γ£ö When user opens the ITSM Store Printer Invoice Remediation workflow         # StepDefinations.WorkflowExecutionStepDefinitions.userOpensTheStorePrinterInvoiceRemediationWorkflow()
+ITSM Store Printer Invoice Remediation heading is displayed
+  Γ£ö Then the ITSM Store Printer Invoice Remediation heading should be displayed # StepDefinations.WorkflowExecutionStepDefinitions.theITSMStorePrinterInvoiceRemediationHeadingShouldBeDisplayed()
+Workflow builder opened.
+Workflow builder opened
+  Γ£ö When user opens the workflow builder                                        # StepDefinations.WorkflowExecutionStepDefinitions.userOpensTheWorkflowBuilder()
+Test draft workflow button is displayed
+  Γ£ö Then the Test draft workflow button should be displayed                     # StepDefinations.WorkflowExecutionStepDefinitions.theTestDraftWorkflowButtonShouldBeDisplayed()
+Test draft workflow button clicked.
+Waiting for Assign Queue popup or Test draft workflow dialog...
+Test draft workflow dialog detected directly.
+Monitoring briefly for late Assign Queue popup...
+Late Assign Queue popup detected.
+Queue is NOT assigned. Assigning queue...
+Assign queue clicked
+Workflow Queue dropdown opened
+dev-playground-queue selected
+Queue settings save clicked
+Assign Queue handling completed.
+Assign Queue popup closed.
+Test draft workflow button clicked again after late queue assignment.
+Test draft workflow dialog is ready.
+Test draft workflow popup sequencing completed
+  Γ£ö When user clicks the Test draft workflow button                             # StepDefinations.WorkflowExecutionStepDefinitions.userClicksTheTestDraftWorkflowButton()
+Test draft workflow dialog is displayed
+  Γ£ö Then the Test draft workflow dialog should be displayed                     # StepDefinations.WorkflowExecutionStepDefinitions.theTestDraftWorkflowDialogShouldBeDisplayed()
+Browser closed.
+]]></system-out>
+    <system-err><![CDATA[Oct 04, 2026 9:10:16 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 149, returning the closest version; found: 148; Please update to a Selenium version that supports CDP version 149
+]]></system-err>
+  </testcase>
+  <testcase name="runScenario[&quot;Assign queue to workflow and verify queue assignment&quot;, &quot;Flow 4 - Workflow Execution&quot;](5)" classname="runner.TestRunner" time="66.313">
+    <system-out><![CDATA[
+Scenario: Assign queue to workflow and verify queue assignment                  # src/test/resources/features/WorkflowExecution.feature:33
+========== HOOK START ==========
+Browser from config: chrome
+URL from config: https://platform.agent.app.dev.cynia.ai/
+Browser initialized.
+URL opened: https://platform.agent.app.dev.cynia.ai/login
+========== HOOK END ==========
+WorkflowStepDefinitions initialized successfully
+========== EXCEL SHEETS ==========
+Sheet 0: [LoginTestData]
+Requested sheet: [LoginTestData]
+=================================
+========== EXCEL SHEETS ==========
+Sheet 0: [LoginTestData]
+Requested sheet: [LoginTestData]
+=================================
+Post-login URL: https://platform.agent.app.dev.cynia.ai/
+User logged into the Cynia application successfully
+  Γ£ö Given user is logged into the Cynia application                             # StepDefinations.WorkflowStepDefinitions.userIsLoggedIntoTheCyniaApplication()
+User navigated to the Workflows screen
+  Γ£ö And user navigates to the Workflows screen                                  # StepDefinations.WorkflowStepDefinitions.userNavigatesToTheWorkflowsScreen()
+WorkflowExecutionStepDefinitions initialized successfully
+ITSM Store Printer Invoice Remediation workflow opened
+  Γ£ö When user opens the ITSM Store Printer Invoice Remediation workflow         # StepDefinations.WorkflowExecutionStepDefinitions.userOpensTheStorePrinterInvoiceRemediationWorkflow()
+ITSM Store Printer Invoice Remediation heading is displayed
+  Γ£ö Then the ITSM Store Printer Invoice Remediation heading should be displayed # StepDefinations.WorkflowExecutionStepDefinitions.theITSMStorePrinterInvoiceRemediationHeadingShouldBeDisplayed()
+Workflow builder opened.
+Workflow builder opened
+  Γ£ö When user opens the workflow builder                                        # StepDefinations.WorkflowExecutionStepDefinitions.userOpensTheWorkflowBuilder()
+Test draft workflow button is displayed
+  Γ£ö Then the Test draft workflow button should be displayed                     # StepDefinations.WorkflowExecutionStepDefinitions.theTestDraftWorkflowButtonShouldBeDisplayed()
+Queue is already assigned. Skipping Assign Queue.
+Assign queue action completed or skipped if queue was already assigned
+  Γ£ö When user assigns the required queue if needed                              # StepDefinations.WorkflowExecutionStepDefinitions.userAssignsTheRequiredQueueIfNeeded()
+Queue assignment verified successfully
+  Γ£ö Then the queue assignment should be completed                               # StepDefinations.WorkflowExecutionStepDefinitions.theQueueAssignmentShouldBeCompleted()
+Browser closed.
+]]></system-out>
+    <system-err><![CDATA[Oct 04, 2026 9:12:32 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 149, returning the closest version; found: 148; Please update to a Selenium version that supports CDP version 149
+]]></system-err>
+  </testcase>
+  <testcase name="runScenario[&quot;Execute workflow and verify execution trace&quot;, &quot;Flow 4 - Workflow Execution&quot;](6)" classname="runner.TestRunner" time="114.255">
+    <failure message="Expected condition failed: waiting for visibility of element found by By.xpath: //h2[normalize-space()=&apos;Test draft workflow&apos;], but... org.openqa.selenium.StaleElementReferenceException: stale element reference: stale element not found.&#10;(tried for 20 seconds with 500 milliseconds interval)&#10;Build info: version: &apos;4.44.0&apos;, revision: &apos;da2039b&apos;&#10;System info: os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;25.0.2&apos;&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 149.0.7827.114, chrome: {chromedriverVersion: 149.0.7827.155 (07b52360cc1..., userDataDir: C:\Users\Win-10\AppData\Loc...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:62478}, goog:processID: 16836, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:62478/devtoo..., se:cdpVersion: 149.0.7827.114, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}&#10;Session ID: e82e9b6d55f831bda24c57bab6eefb9a" type="org.openqa.selenium.TimeoutException"><![CDATA[org.openqa.selenium.TimeoutException: 
+Expected condition failed: waiting for visibility of element found by By.xpath: //h2[normalize-space()='Test draft workflow'], but... org.openqa.selenium.StaleElementReferenceException: stale element reference: stale element not found.
+(tried for 20 seconds with 500 milliseconds interval)
+Build info: version: '4.44.0', revision: 'da2039b'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '25.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 149.0.7827.114, chrome: {chromedriverVersion: 149.0.7827.155 (07b52360cc1..., userDataDir: C:\Users\Win-10\AppData\Loc...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:62478}, goog:processID: 16836, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:62478/devtoo..., se:cdpVersion: 149.0.7827.114, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: e82e9b6d55f831bda24c57bab6eefb9a
+	at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:85)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:234)
+	at com.cynia.automation.pages.WorkflowExecutionPage.isTestDraftWorkflowDialogDisplayed(WorkflowExecutionPage.java:525)
+	at StepDefinations.WorkflowExecutionStepDefinitions.theTestDraftWorkflowDialogShouldBeDisplayed(WorkflowExecutionStepDefinitions.java:196)
+	at ✽.the Test draft workflow dialog should be displayed(file:///C:/Users/Win-10/IdeaProjects/Cynia_Project/src/test/resources/features/WorkflowExecution.feature:48)
+]]></failure>
+    <system-out><![CDATA[
+Scenario: Execute workflow and verify execution trace                           # src/test/resources/features/WorkflowExecution.feature:42
+========== HOOK START ==========
+Browser from config: chrome
+URL from config: https://platform.agent.app.dev.cynia.ai/
+Browser initialized.
+URL opened: https://platform.agent.app.dev.cynia.ai/login
+========== HOOK END ==========
+WorkflowStepDefinitions initialized successfully
+========== EXCEL SHEETS ==========
+Sheet 0: [LoginTestData]
+Requested sheet: [LoginTestData]
+=================================
+========== EXCEL SHEETS ==========
+Sheet 0: [LoginTestData]
+Requested sheet: [LoginTestData]
+=================================
+Post-login URL: https://platform.agent.app.dev.cynia.ai/
+User logged into the Cynia application successfully
+  Γ£ö Given user is logged into the Cynia application                             # StepDefinations.WorkflowStepDefinitions.userIsLoggedIntoTheCyniaApplication()
+User navigated to the Workflows screen
+  Γ£ö And user navigates to the Workflows screen                                  # StepDefinations.WorkflowStepDefinitions.userNavigatesToTheWorkflowsScreen()
+WorkflowExecutionStepDefinitions initialized successfully
+ITSM Store Printer Invoice Remediation workflow opened
+  Γ£ö When user opens the ITSM Store Printer Invoice Remediation workflow         # StepDefinations.WorkflowExecutionStepDefinitions.userOpensTheStorePrinterInvoiceRemediationWorkflow()
+ITSM Store Printer Invoice Remediation heading is displayed
+  Γ£ö Then the ITSM Store Printer Invoice Remediation heading should be displayed # StepDefinations.WorkflowExecutionStepDefinitions.theITSMStorePrinterInvoiceRemediationHeadingShouldBeDisplayed()
+Workflow builder opened.
+Workflow builder opened
+  Γ£ö When user opens the workflow builder                                        # StepDefinations.WorkflowExecutionStepDefinitions.userOpensTheWorkflowBuilder()
+Test draft workflow button is displayed
+  Γ£ö Then the Test draft workflow button should be displayed                     # StepDefinations.WorkflowExecutionStepDefinitions.theTestDraftWorkflowButtonShouldBeDisplayed()
+Test draft workflow button clicked.
+Waiting for Assign Queue popup or Test draft workflow dialog...
+Test draft workflow dialog detected directly.
+Monitoring briefly for late Assign Queue popup...
+No late Assign Queue popup detected. Continuing to JSON.
+Test draft workflow popup sequencing completed
+  Γ£ö When user clicks the Test draft workflow button                             # StepDefinations.WorkflowExecutionStepDefinitions.userClicksTheTestDraftWorkflowButton()
+  Γ£ÿ Then the Test draft workflow dialog should be displayed                     # StepDefinations.WorkflowExecutionStepDefinitions.theTestDraftWorkflowDialogShouldBeDisplayed()
+        org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of element found by By.xpath: //h2[normalize-space()='Test draft workflow'], but... org.openqa.selenium.StaleElementReferenceException: stale element reference: stale element not found.
+        (tried for 20 seconds with 500 milliseconds interval)
+        Build info: version: '4.44.0', revision: 'da2039b'
+        System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '25.0.2'
+        Driver info: org.openqa.selenium.chrome.ChromeDriver
+        Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 149.0.7827.114, chrome: {chromedriverVersion: 149.0.7827.155 (07b52360cc1..., userDataDir: C:\Users\Win-10\AppData\Loc...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:62478}, goog:processID: 16836, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:62478/devtoo..., se:cdpVersion: 149.0.7827.114, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+        Session ID: e82e9b6d55f831bda24c57bab6eefb9a
+        	at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:85)
+        	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:234)
+        	at com.cynia.automation.pages.WorkflowExecutionPage.isTestDraftWorkflowDialogDisplayed(WorkflowExecutionPage.java:525)
+        	at StepDefinations.WorkflowExecutionStepDefinitions.theTestDraftWorkflowDialogShouldBeDisplayed(WorkflowExecutionStepDefinitions.java:196)
+        	at Γ£╜.the Test draft workflow dialog should be displayed(file:///C:/Users/Win-10/IdeaProjects/Cynia_Project/src/test/resources/features/WorkflowExecution.feature:48)
+  Γå╖ When user enters valid inputData JSON                                       # StepDefinations.WorkflowExecutionStepDefinitions.userEntersValidInputDataJson()
+  Γå╖ Then the Test draft button should be enabled                                # StepDefinations.WorkflowExecutionStepDefinitions.theTestDraftButtonShouldBeEnabled()
+  Γå╖ When user clicks the Test draft button                                      # StepDefinations.WorkflowExecutionStepDefinitions.userClicksTheTestDraftButton()
+  Γå╖ Then the execution trace should be displayed                                # StepDefinations.WorkflowExecutionStepDefinitions.theExecutionTraceShouldBeDisplayed()
+
+        Embedding Execute workflow and verify execution trace [image/png 331275 bytes]
+
+Failed scenario screenshot saved: C:\Users\Win-10\IdeaProjects\Cynia_Project\target\screenshots\Execute_workflow_and_verify_execution_trace_FAILED_20261004_211507_915.png
+Browser closed.
+]]></system-out>
+    <system-err><![CDATA[Oct 04, 2026 9:13:35 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 149, returning the closest version; found: 148; Please update to a Selenium version that supports CDP version 149
+]]></system-err>
+  </testcase>
+  <testcase name="runScenario[&quot;Execute workflow, verify Traces, statuses and return to workflow overview&quot;, &quot;Flow 4 - Workflow Execution&quot;](7)" classname="runner.TestRunner" time="130.073">
+    <system-out><![CDATA[
+Scenario: Execute workflow, verify Traces, statuses and return to workflow overview # src/test/resources/features/WorkflowExecution.feature:55
+========== HOOK START ==========
+Browser from config: chrome
+URL from config: https://platform.agent.app.dev.cynia.ai/
+Browser initialized.
+URL opened: https://platform.agent.app.dev.cynia.ai/login
+========== HOOK END ==========
+WorkflowStepDefinitions initialized successfully
+========== EXCEL SHEETS ==========
+Sheet 0: [LoginTestData]
+Requested sheet: [LoginTestData]
+=================================
+========== EXCEL SHEETS ==========
+Sheet 0: [LoginTestData]
+Requested sheet: [LoginTestData]
+=================================
+Post-login URL: https://platform.agent.app.dev.cynia.ai/
+User logged into the Cynia application successfully
+  Γ£ö Given user is logged into the Cynia application                                 # StepDefinations.WorkflowStepDefinitions.userIsLoggedIntoTheCyniaApplication()
+User navigated to the Workflows screen
+  Γ£ö And user navigates to the Workflows screen                                      # StepDefinations.WorkflowStepDefinitions.userNavigatesToTheWorkflowsScreen()
+WorkflowExecutionStepDefinitions initialized successfully
+ITSM Store Printer Invoice Remediation workflow opened
+  Γ£ö When user opens the ITSM Store Printer Invoice Remediation workflow             # StepDefinations.WorkflowExecutionStepDefinitions.userOpensTheStorePrinterInvoiceRemediationWorkflow()
+ITSM Store Printer Invoice Remediation heading is displayed
+  Γ£ö Then the ITSM Store Printer Invoice Remediation heading should be displayed     # StepDefinations.WorkflowExecutionStepDefinitions.theITSMStorePrinterInvoiceRemediationHeadingShouldBeDisplayed()
+Workflow builder opened.
+Workflow builder opened
+  Γ£ö When user opens the workflow builder                                            # StepDefinations.WorkflowExecutionStepDefinitions.userOpensTheWorkflowBuilder()
+Test draft workflow button is displayed
+  Γ£ö Then the Test draft workflow button should be displayed                         # StepDefinations.WorkflowExecutionStepDefinitions.theTestDraftWorkflowButtonShouldBeDisplayed()
+Test draft workflow button clicked.
+Waiting for Assign Queue popup or Test draft workflow dialog...
+Test draft workflow dialog detected directly.
+Monitoring briefly for late Assign Queue popup...
+No late Assign Queue popup detected. Continuing to JSON.
+Test draft workflow popup sequencing completed
+  Γ£ö When user clicks the Test draft workflow button                                 # StepDefinations.WorkflowExecutionStepDefinitions.userClicksTheTestDraftWorkflowButton()
+Test draft workflow dialog is displayed
+  Γ£ö Then the Test draft workflow dialog should be displayed                         # StepDefinations.WorkflowExecutionStepDefinitions.theTestDraftWorkflowDialogShouldBeDisplayed()
+Valid inputData JSON entered.
+Valid inputData JSON entered
+  Γ£ö When user enters valid inputData JSON                                           # StepDefinations.WorkflowExecutionStepDefinitions.userEntersValidInputDataJson()
+Test draft button is enabled
+  Γ£ö Then the Test draft button should be enabled                                    # StepDefinations.WorkflowExecutionStepDefinitions.theTestDraftButtonShouldBeEnabled()
+Test draft button clicked.
+Test draft button clicked
+  Γ£ö When user clicks the Test draft button                                          # StepDefinations.WorkflowExecutionStepDefinitions.userClicksTheTestDraftButton()
+Execution trace is displayed
+  Γ£ö Then the execution trace should be displayed                                    # StepDefinations.WorkflowExecutionStepDefinitions.theExecutionTraceShouldBeDisplayed()
+Traces heading is displayed
+  Γ£ö And the Traces heading should be displayed                                      # StepDefinations.WorkflowExecutionStepDefinitions.theTracesHeadingShouldBeDisplayed()
+========== WORKFLOW EXECUTION STATUS ==========
+Overall execution status: RUNNING
+===============================================
+Overall workflow execution status: RUNNING
+  Γ£ö And the current workflow execution status should be displayed                   # StepDefinations.WorkflowExecutionStepDefinitions.theCurrentWorkflowExecutionStatusShouldBeDisplayed()
+========== TRACE STATUSES ==========
+Trace status: RUNNING
+====================================
+Trace statuses displayed. Total trace statuses: 1
+  Γ£ö And the trace statuses should be displayed                                      # StepDefinations.WorkflowExecutionStepDefinitions.theTraceStatusesShouldBeDisplayed()
+INFO - Human response is not automated because the Human Response UI is currently not working.
+INFO - Continuing with navigation and execution status verification.
+Human response limitation reported
+  Γ£ö And the human response limitation should be reported                            # StepDefinations.WorkflowExecutionStepDefinitions.theHumanResponseLimitationShouldBeReported()
+Navigated back to workflow overview
+  Γ£ö When user navigates back to the workflow overview                               # StepDefinations.WorkflowExecutionStepDefinitions.userNavigatesBackToTheWorkflowOverview()
+Workflow overview is displayed after navigation back
+  Γ£ö Then the workflow overview should be displayed                                  # StepDefinations.WorkflowExecutionStepDefinitions.theWorkflowOverviewShouldBeDisplayed()
+Browser closed.
+]]></system-out>
+    <system-err><![CDATA[Oct 04, 2026 9:15:35 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 149, returning the closest version; found: 148; Please update to a Selenium version that supports CDP version 149
+]]></system-err>
+  </testcase>
+</testsuite>

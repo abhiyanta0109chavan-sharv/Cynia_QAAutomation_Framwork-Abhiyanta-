@@ -1,0 +1,769 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="7" passed="6" failed="1" skipped="0">
+  <reporter-output>
+    <line>
+      <![CDATA[WorkflowStepDefinitions initialized successfully]]>
+    </line>
+    <line>
+      <![CDATA[User logged into the Cynia application successfully]]>
+    </line>
+    <line>
+      <![CDATA[User navigated to the Workflows screen]]>
+    </line>
+    <line>
+      <![CDATA[WorkflowExecutionStepDefinitions initialized successfully]]>
+    </line>
+    <line>
+      <![CDATA[Workflows heading is displayed]]>
+    </line>
+    <line>
+      <![CDATA[WorkflowStepDefinitions initialized successfully]]>
+    </line>
+    <line>
+      <![CDATA[User logged into the Cynia application successfully]]>
+    </line>
+    <line>
+      <![CDATA[User navigated to the Workflows screen]]>
+    </line>
+    <line>
+      <![CDATA[WorkflowExecutionStepDefinitions initialized successfully]]>
+    </line>
+    <line>
+      <![CDATA[ITSM Store Printer Invoice Remediation workflow opened]]>
+    </line>
+    <line>
+      <![CDATA[ITSM Store Printer Invoice Remediation heading is displayed]]>
+    </line>
+    <line>
+      <![CDATA[WorkflowStepDefinitions initialized successfully]]>
+    </line>
+    <line>
+      <![CDATA[User logged into the Cynia application successfully]]>
+    </line>
+    <line>
+      <![CDATA[User navigated to the Workflows screen]]>
+    </line>
+    <line>
+      <![CDATA[WorkflowExecutionStepDefinitions initialized successfully]]>
+    </line>
+    <line>
+      <![CDATA[ITSM Store Printer Invoice Remediation workflow opened]]>
+    </line>
+    <line>
+      <![CDATA[ITSM Store Printer Invoice Remediation heading is displayed]]>
+    </line>
+    <line>
+      <![CDATA[Workflow builder opened.]]>
+    </line>
+    <line>
+      <![CDATA[Workflow builder opened]]>
+    </line>
+    <line>
+      <![CDATA[Test draft workflow button is displayed]]>
+    </line>
+    <line>
+      <![CDATA[WorkflowStepDefinitions initialized successfully]]>
+    </line>
+    <line>
+      <![CDATA[User logged into the Cynia application successfully]]>
+    </line>
+    <line>
+      <![CDATA[User navigated to the Workflows screen]]>
+    </line>
+    <line>
+      <![CDATA[WorkflowExecutionStepDefinitions initialized successfully]]>
+    </line>
+    <line>
+      <![CDATA[ITSM Store Printer Invoice Remediation workflow opened]]>
+    </line>
+    <line>
+      <![CDATA[ITSM Store Printer Invoice Remediation heading is displayed]]>
+    </line>
+    <line>
+      <![CDATA[Workflow builder opened.]]>
+    </line>
+    <line>
+      <![CDATA[Workflow builder opened]]>
+    </line>
+    <line>
+      <![CDATA[Test draft workflow button is displayed]]>
+    </line>
+    <line>
+      <![CDATA[Test draft workflow button clicked.]]>
+    </line>
+    <line>
+      <![CDATA[Waiting for Assign Queue popup or Test draft workflow dialog...]]>
+    </line>
+    <line>
+      <![CDATA[Test draft workflow dialog detected directly.]]>
+    </line>
+    <line>
+      <![CDATA[Monitoring briefly for late Assign Queue popup...]]>
+    </line>
+    <line>
+      <![CDATA[Late Assign Queue popup detected.]]>
+    </line>
+    <line>
+      <![CDATA[Queue is NOT assigned. Assigning queue...]]>
+    </line>
+    <line>
+      <![CDATA[Assign queue clicked]]>
+    </line>
+    <line>
+      <![CDATA[Workflow Queue dropdown opened]]>
+    </line>
+    <line>
+      <![CDATA[dev-playground-queue selected]]>
+    </line>
+    <line>
+      <![CDATA[Queue settings save clicked]]>
+    </line>
+    <line>
+      <![CDATA[Assign Queue handling completed.]]>
+    </line>
+    <line>
+      <![CDATA[Assign Queue popup closed.]]>
+    </line>
+    <line>
+      <![CDATA[Test draft workflow button clicked again after late queue assignment.]]>
+    </line>
+    <line>
+      <![CDATA[Test draft workflow dialog is ready.]]>
+    </line>
+    <line>
+      <![CDATA[Test draft workflow popup sequencing completed]]>
+    </line>
+    <line>
+      <![CDATA[Test draft workflow dialog is displayed]]>
+    </line>
+    <line>
+      <![CDATA[WorkflowStepDefinitions initialized successfully]]>
+    </line>
+    <line>
+      <![CDATA[User logged into the Cynia application successfully]]>
+    </line>
+    <line>
+      <![CDATA[User navigated to the Workflows screen]]>
+    </line>
+    <line>
+      <![CDATA[WorkflowExecutionStepDefinitions initialized successfully]]>
+    </line>
+    <line>
+      <![CDATA[ITSM Store Printer Invoice Remediation workflow opened]]>
+    </line>
+    <line>
+      <![CDATA[ITSM Store Printer Invoice Remediation heading is displayed]]>
+    </line>
+    <line>
+      <![CDATA[Workflow builder opened.]]>
+    </line>
+    <line>
+      <![CDATA[Workflow builder opened]]>
+    </line>
+    <line>
+      <![CDATA[Test draft workflow button is displayed]]>
+    </line>
+    <line>
+      <![CDATA[Queue is already assigned. Skipping Assign Queue.]]>
+    </line>
+    <line>
+      <![CDATA[Assign queue action completed or skipped if queue was already assigned]]>
+    </line>
+    <line>
+      <![CDATA[Queue assignment verified successfully]]>
+    </line>
+    <line>
+      <![CDATA[WorkflowStepDefinitions initialized successfully]]>
+    </line>
+    <line>
+      <![CDATA[User logged into the Cynia application successfully]]>
+    </line>
+    <line>
+      <![CDATA[User navigated to the Workflows screen]]>
+    </line>
+    <line>
+      <![CDATA[WorkflowExecutionStepDefinitions initialized successfully]]>
+    </line>
+    <line>
+      <![CDATA[ITSM Store Printer Invoice Remediation workflow opened]]>
+    </line>
+    <line>
+      <![CDATA[ITSM Store Printer Invoice Remediation heading is displayed]]>
+    </line>
+    <line>
+      <![CDATA[Workflow builder opened.]]>
+    </line>
+    <line>
+      <![CDATA[Workflow builder opened]]>
+    </line>
+    <line>
+      <![CDATA[Test draft workflow button is displayed]]>
+    </line>
+    <line>
+      <![CDATA[Test draft workflow button clicked.]]>
+    </line>
+    <line>
+      <![CDATA[Waiting for Assign Queue popup or Test draft workflow dialog...]]>
+    </line>
+    <line>
+      <![CDATA[Test draft workflow dialog detected directly.]]>
+    </line>
+    <line>
+      <![CDATA[Monitoring briefly for late Assign Queue popup...]]>
+    </line>
+    <line>
+      <![CDATA[No late Assign Queue popup detected. Continuing to JSON.]]>
+    </line>
+    <line>
+      <![CDATA[Test draft workflow popup sequencing completed]]>
+    </line>
+    <line>
+      <![CDATA[WorkflowStepDefinitions initialized successfully]]>
+    </line>
+    <line>
+      <![CDATA[User logged into the Cynia application successfully]]>
+    </line>
+    <line>
+      <![CDATA[User navigated to the Workflows screen]]>
+    </line>
+    <line>
+      <![CDATA[WorkflowExecutionStepDefinitions initialized successfully]]>
+    </line>
+    <line>
+      <![CDATA[ITSM Store Printer Invoice Remediation workflow opened]]>
+    </line>
+    <line>
+      <![CDATA[ITSM Store Printer Invoice Remediation heading is displayed]]>
+    </line>
+    <line>
+      <![CDATA[Workflow builder opened.]]>
+    </line>
+    <line>
+      <![CDATA[Workflow builder opened]]>
+    </line>
+    <line>
+      <![CDATA[Test draft workflow button is displayed]]>
+    </line>
+    <line>
+      <![CDATA[Test draft workflow button clicked.]]>
+    </line>
+    <line>
+      <![CDATA[Waiting for Assign Queue popup or Test draft workflow dialog...]]>
+    </line>
+    <line>
+      <![CDATA[Test draft workflow dialog detected directly.]]>
+    </line>
+    <line>
+      <![CDATA[Monitoring briefly for late Assign Queue popup...]]>
+    </line>
+    <line>
+      <![CDATA[No late Assign Queue popup detected. Continuing to JSON.]]>
+    </line>
+    <line>
+      <![CDATA[Test draft workflow popup sequencing completed]]>
+    </line>
+    <line>
+      <![CDATA[Test draft workflow dialog is displayed]]>
+    </line>
+    <line>
+      <![CDATA[Valid inputData JSON entered.]]>
+    </line>
+    <line>
+      <![CDATA[Valid inputData JSON entered]]>
+    </line>
+    <line>
+      <![CDATA[Test draft button is enabled]]>
+    </line>
+    <line>
+      <![CDATA[Test draft button clicked.]]>
+    </line>
+    <line>
+      <![CDATA[Test draft button clicked]]>
+    </line>
+    <line>
+      <![CDATA[Execution trace is displayed]]>
+    </line>
+    <line>
+      <![CDATA[Traces heading is displayed]]>
+    </line>
+    <line>
+      <![CDATA[Overall workflow execution status: RUNNING]]>
+    </line>
+    <line>
+      <![CDATA[Trace statuses displayed. Total trace statuses: 1]]>
+    </line>
+    <line>
+      <![CDATA[Human response limitation reported]]>
+    </line>
+    <line>
+      <![CDATA[Navigated back to workflow overview]]>
+    </line>
+    <line>
+      <![CDATA[Workflow overview is displayed after navigation back]]>
+    </line>
+  </reporter-output>
+  <suite started-at="2026-10-04T21:07:07 IST" name="Cynia Automation Suite" finished-at="2026-10-04T21:17:34 IST" duration-ms="627373">
+    <groups>
+      <group name="cucumber">
+        <method signature="AbstractTestNGCucumberTests.runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runner.TestRunner@57c758ac]" name="runScenario" class="io.cucumber.testng.AbstractTestNGCucumberTests"/>
+      </group> <!-- cucumber -->
+    </groups>
+    <test started-at="2026-10-04T21:07:07 IST" name="Cynia Login and Workflow Scenarios" finished-at="2026-10-04T21:17:34 IST" duration-ms="627373">
+      <class name="runner.TestRunner">
+        <test-method is-config="true" signature="setUpClass(org.testng.ITestContext)[pri:0, instance:runner.TestRunner@57c758ac]" started-at="2026-10-04T21:07:07 IST" name="setUpClass" finished-at="2026-10-04T21:07:12 IST" duration-ms="5227" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@1d585fb]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpClass -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runner.TestRunner@57c758ac]" started-at="2026-10-04T21:07:13 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2026-10-04T21:08:23 IST" duration-ms="70155" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Verify Workflows screen before execution"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Flow 4 - Workflow Execution"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[WorkflowStepDefinitions initialized successfully]]>
+            </line>
+            <line>
+              <![CDATA[User logged into the Cynia application successfully]]>
+            </line>
+            <line>
+              <![CDATA[User navigated to the Workflows screen]]>
+            </line>
+            <line>
+              <![CDATA[WorkflowExecutionStepDefinitions initialized successfully]]>
+            </line>
+            <line>
+              <![CDATA[Workflows heading is displayed]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runner.TestRunner@57c758ac]" started-at="2026-10-04T21:08:23 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2026-10-04T21:09:25 IST" duration-ms="62433" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Verify Store Printer Invoice Remediation workflow screen"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Flow 4 - Workflow Execution"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[WorkflowStepDefinitions initialized successfully]]>
+            </line>
+            <line>
+              <![CDATA[User logged into the Cynia application successfully]]>
+            </line>
+            <line>
+              <![CDATA[User navigated to the Workflows screen]]>
+            </line>
+            <line>
+              <![CDATA[WorkflowExecutionStepDefinitions initialized successfully]]>
+            </line>
+            <line>
+              <![CDATA[ITSM Store Printer Invoice Remediation workflow opened]]>
+            </line>
+            <line>
+              <![CDATA[ITSM Store Printer Invoice Remediation heading is displayed]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runner.TestRunner@57c758ac]" started-at="2026-10-04T21:09:25 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2026-10-04T21:10:10 IST" duration-ms="45258" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Verify Builder screen before execution"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Flow 4 - Workflow Execution"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[WorkflowStepDefinitions initialized successfully]]>
+            </line>
+            <line>
+              <![CDATA[User logged into the Cynia application successfully]]>
+            </line>
+            <line>
+              <![CDATA[User navigated to the Workflows screen]]>
+            </line>
+            <line>
+              <![CDATA[WorkflowExecutionStepDefinitions initialized successfully]]>
+            </line>
+            <line>
+              <![CDATA[ITSM Store Printer Invoice Remediation workflow opened]]>
+            </line>
+            <line>
+              <![CDATA[ITSM Store Printer Invoice Remediation heading is displayed]]>
+            </line>
+            <line>
+              <![CDATA[Workflow builder opened.]]>
+            </line>
+            <line>
+              <![CDATA[Workflow builder opened]]>
+            </line>
+            <line>
+              <![CDATA[Test draft workflow button is displayed]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runner.TestRunner@57c758ac]" started-at="2026-10-04T21:10:10 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2026-10-04T21:12:24 IST" duration-ms="133106" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Verify Test draft workflow dialog before execution"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Flow 4 - Workflow Execution"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[WorkflowStepDefinitions initialized successfully]]>
+            </line>
+            <line>
+              <![CDATA[User logged into the Cynia application successfully]]>
+            </line>
+            <line>
+              <![CDATA[User navigated to the Workflows screen]]>
+            </line>
+            <line>
+              <![CDATA[WorkflowExecutionStepDefinitions initialized successfully]]>
+            </line>
+            <line>
+              <![CDATA[ITSM Store Printer Invoice Remediation workflow opened]]>
+            </line>
+            <line>
+              <![CDATA[ITSM Store Printer Invoice Remediation heading is displayed]]>
+            </line>
+            <line>
+              <![CDATA[Workflow builder opened.]]>
+            </line>
+            <line>
+              <![CDATA[Workflow builder opened]]>
+            </line>
+            <line>
+              <![CDATA[Test draft workflow button is displayed]]>
+            </line>
+            <line>
+              <![CDATA[Test draft workflow button clicked.]]>
+            </line>
+            <line>
+              <![CDATA[Waiting for Assign Queue popup or Test draft workflow dialog...]]>
+            </line>
+            <line>
+              <![CDATA[Test draft workflow dialog detected directly.]]>
+            </line>
+            <line>
+              <![CDATA[Monitoring briefly for late Assign Queue popup...]]>
+            </line>
+            <line>
+              <![CDATA[Late Assign Queue popup detected.]]>
+            </line>
+            <line>
+              <![CDATA[Queue is NOT assigned. Assigning queue...]]>
+            </line>
+            <line>
+              <![CDATA[Assign queue clicked]]>
+            </line>
+            <line>
+              <![CDATA[Workflow Queue dropdown opened]]>
+            </line>
+            <line>
+              <![CDATA[dev-playground-queue selected]]>
+            </line>
+            <line>
+              <![CDATA[Queue settings save clicked]]>
+            </line>
+            <line>
+              <![CDATA[Assign Queue handling completed.]]>
+            </line>
+            <line>
+              <![CDATA[Assign Queue popup closed.]]>
+            </line>
+            <line>
+              <![CDATA[Test draft workflow button clicked again after late queue assignment.]]>
+            </line>
+            <line>
+              <![CDATA[Test draft workflow dialog is ready.]]>
+            </line>
+            <line>
+              <![CDATA[Test draft workflow popup sequencing completed]]>
+            </line>
+            <line>
+              <![CDATA[Test draft workflow dialog is displayed]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runner.TestRunner@57c758ac]" started-at="2026-10-04T21:12:24 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2026-10-04T21:13:30 IST" duration-ms="66350" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Assign queue to workflow and verify queue assignment"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Flow 4 - Workflow Execution"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[WorkflowStepDefinitions initialized successfully]]>
+            </line>
+            <line>
+              <![CDATA[User logged into the Cynia application successfully]]>
+            </line>
+            <line>
+              <![CDATA[User navigated to the Workflows screen]]>
+            </line>
+            <line>
+              <![CDATA[WorkflowExecutionStepDefinitions initialized successfully]]>
+            </line>
+            <line>
+              <![CDATA[ITSM Store Printer Invoice Remediation workflow opened]]>
+            </line>
+            <line>
+              <![CDATA[ITSM Store Printer Invoice Remediation heading is displayed]]>
+            </line>
+            <line>
+              <![CDATA[Workflow builder opened.]]>
+            </line>
+            <line>
+              <![CDATA[Workflow builder opened]]>
+            </line>
+            <line>
+              <![CDATA[Test draft workflow button is displayed]]>
+            </line>
+            <line>
+              <![CDATA[Queue is already assigned. Skipping Assign Queue.]]>
+            </line>
+            <line>
+              <![CDATA[Assign queue action completed or skipped if queue was already assigned]]>
+            </line>
+            <line>
+              <![CDATA[Queue assignment verified successfully]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runner.TestRunner@57c758ac]" started-at="2026-10-04T21:13:30 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2026-10-04T21:15:24 IST" duration-ms="113989" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Execute workflow and verify execution trace"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Flow 4 - Workflow Execution"]]>
+              </value>
+            </param>
+          </params>
+          <exception class="org.openqa.selenium.TimeoutException">
+            <message>
+              <![CDATA[Expected condition failed: waiting for visibility of element found by By.xpath: //h2[normalize-space()='Test draft workflow'], but... org.openqa.selenium.StaleElementReferenceException: stale element reference: stale element not found.
+(tried for 20 seconds with 500 milliseconds interval)
+Build info: version: '4.44.0', revision: 'da2039b'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '25.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 149.0.7827.114, chrome: {chromedriverVersion: 149.0.7827.155 (07b52360cc1..., userDataDir: C:\Users\Win-10\AppData\Loc...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:62478}, goog:processID: 16836, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:62478/devtoo..., se:cdpVersion: 149.0.7827.114, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: e82e9b6d55f831bda24c57bab6eefb9a]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of element found by By.xpath: //h2[normalize-space()='Test draft workflow'], but... org.openqa.selenium.StaleElementReferenceException: stale element reference: stale element not found.
+(tried for 20 seconds with 500 milliseconds interval)
+Build info: version: '4.44.0', revision: 'da2039b'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '25.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 149.0.7827.114, chrome: {chromedriverVersion: 149.0.7827.155 (07b52360cc1..., userDataDir: C:\Users\Win-10\AppData\Loc...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:62478}, goog:processID: 16836, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:62478/devtoo..., se:cdpVersion: 149.0.7827.114, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: e82e9b6d55f831bda24c57bab6eefb9a
+at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:85)
+at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:234)
+at com.cynia.automation.pages.WorkflowExecutionPage.isTestDraftWorkflowDialogDisplayed(WorkflowExecutionPage.java:525)
+at StepDefinations.WorkflowExecutionStepDefinitions.theTestDraftWorkflowDialogShouldBeDisplayed(WorkflowExecutionStepDefinitions.java:196)
+at ✽.the Test draft workflow dialog should be displayed(file:///C:/Users/Win-10/IdeaProjects/Cynia_Project/src/test/resources/features/WorkflowExecution.feature:48)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.TimeoutException -->
+          <reporter-output>
+            <line>
+              <![CDATA[WorkflowStepDefinitions initialized successfully]]>
+            </line>
+            <line>
+              <![CDATA[User logged into the Cynia application successfully]]>
+            </line>
+            <line>
+              <![CDATA[User navigated to the Workflows screen]]>
+            </line>
+            <line>
+              <![CDATA[WorkflowExecutionStepDefinitions initialized successfully]]>
+            </line>
+            <line>
+              <![CDATA[ITSM Store Printer Invoice Remediation workflow opened]]>
+            </line>
+            <line>
+              <![CDATA[ITSM Store Printer Invoice Remediation heading is displayed]]>
+            </line>
+            <line>
+              <![CDATA[Workflow builder opened.]]>
+            </line>
+            <line>
+              <![CDATA[Workflow builder opened]]>
+            </line>
+            <line>
+              <![CDATA[Test draft workflow button is displayed]]>
+            </line>
+            <line>
+              <![CDATA[Test draft workflow button clicked.]]>
+            </line>
+            <line>
+              <![CDATA[Waiting for Assign Queue popup or Test draft workflow dialog...]]>
+            </line>
+            <line>
+              <![CDATA[Test draft workflow dialog detected directly.]]>
+            </line>
+            <line>
+              <![CDATA[Monitoring briefly for late Assign Queue popup...]]>
+            </line>
+            <line>
+              <![CDATA[No late Assign Queue popup detected. Continuing to JSON.]]>
+            </line>
+            <line>
+              <![CDATA[Test draft workflow popup sequencing completed]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runner.TestRunner@57c758ac]" started-at="2026-10-04T21:15:24 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2026-10-04T21:17:34 IST" duration-ms="130226" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Execute workflow, verify Traces, statuses and return to workflow overview"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Flow 4 - Workflow Execution"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[WorkflowStepDefinitions initialized successfully]]>
+            </line>
+            <line>
+              <![CDATA[User logged into the Cynia application successfully]]>
+            </line>
+            <line>
+              <![CDATA[User navigated to the Workflows screen]]>
+            </line>
+            <line>
+              <![CDATA[WorkflowExecutionStepDefinitions initialized successfully]]>
+            </line>
+            <line>
+              <![CDATA[ITSM Store Printer Invoice Remediation workflow opened]]>
+            </line>
+            <line>
+              <![CDATA[ITSM Store Printer Invoice Remediation heading is displayed]]>
+            </line>
+            <line>
+              <![CDATA[Workflow builder opened.]]>
+            </line>
+            <line>
+              <![CDATA[Workflow builder opened]]>
+            </line>
+            <line>
+              <![CDATA[Test draft workflow button is displayed]]>
+            </line>
+            <line>
+              <![CDATA[Test draft workflow button clicked.]]>
+            </line>
+            <line>
+              <![CDATA[Waiting for Assign Queue popup or Test draft workflow dialog...]]>
+            </line>
+            <line>
+              <![CDATA[Test draft workflow dialog detected directly.]]>
+            </line>
+            <line>
+              <![CDATA[Monitoring briefly for late Assign Queue popup...]]>
+            </line>
+            <line>
+              <![CDATA[No late Assign Queue popup detected. Continuing to JSON.]]>
+            </line>
+            <line>
+              <![CDATA[Test draft workflow popup sequencing completed]]>
+            </line>
+            <line>
+              <![CDATA[Test draft workflow dialog is displayed]]>
+            </line>
+            <line>
+              <![CDATA[Valid inputData JSON entered.]]>
+            </line>
+            <line>
+              <![CDATA[Valid inputData JSON entered]]>
+            </line>
+            <line>
+              <![CDATA[Test draft button is enabled]]>
+            </line>
+            <line>
+              <![CDATA[Test draft button clicked.]]>
+            </line>
+            <line>
+              <![CDATA[Test draft button clicked]]>
+            </line>
+            <line>
+              <![CDATA[Execution trace is displayed]]>
+            </line>
+            <line>
+              <![CDATA[Traces heading is displayed]]>
+            </line>
+            <line>
+              <![CDATA[Overall workflow execution status: RUNNING]]>
+            </line>
+            <line>
+              <![CDATA[Trace statuses displayed. Total trace statuses: 1]]>
+            </line>
+            <line>
+              <![CDATA[Human response limitation reported]]>
+            </line>
+            <line>
+              <![CDATA[Navigated back to workflow overview]]>
+            </line>
+            <line>
+              <![CDATA[Workflow overview is displayed after navigation back]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method is-config="true" signature="tearDownClass()[pri:0, instance:runner.TestRunner@57c758ac]" started-at="2026-10-04T21:17:34 IST" name="tearDownClass" finished-at="2026-10-04T21:17:34 IST" duration-ms="100" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownClass -->
+      </class> <!-- runner.TestRunner -->
+    </test> <!-- Cynia Login and Workflow Scenarios -->
+  </suite> <!-- Cynia Automation Suite -->
+</testng-results>
